@@ -4,21 +4,21 @@
     </head>
     <body>
         <h2>Formulário com método GET</h2>
-        <form>
-            Login: <input type="text">
+        <form action="/page.php" method="get">
+            Login: <input type="text" id="login" name="login">
             <br><br>
-            Senha: <input type="password">
+            Senha: <input type="password" id="senha" name="senha">
             <br><br>
-            <input type="buttom" value="entrar">
+            <input type="button" value="entrar">
         </form>
 
         <h2>Formulário com método POST</h2>
-        <form>
-            Login: <input type="text">
+        <form action="/page.php" method="post">
+            Login: <input type="text" id="login" name="login">
             <br><br>
-            Senha: <input type="password">
+            Senha: <input type="password" id="senha" name="senha">
             <br><br>
-            <input type="buttom" value="entrar">
+            <input type="button" value="entrar">
         </form>
     </body>
 </html>
